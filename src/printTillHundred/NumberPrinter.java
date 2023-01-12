@@ -1,9 +1,9 @@
 package printTillHundred;
 
-public class PrintNumber implements Runnable{
+public class NumberPrinter implements Runnable{
     int toPrint;
 
-    PrintNumber(int toPrint){
+    NumberPrinter(int toPrint){
         this.toPrint = toPrint;
     }
 
